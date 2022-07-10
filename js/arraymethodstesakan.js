@@ -23,3 +23,26 @@
 // console.log(copyWithin([1, 2, 3, 4, 5, 6], 2, 2, 5));
 
 // console.log([1, 2, 3, 4, 5, 6].copyWithin(2,2,5));
+
+// const lecture = {
+//   teacher: "Vardges",
+//   ask(question) {
+//     console.log(this.teacher, question);
+//   },
+// };
+
+// setTimeout(lecture.ask, 10, "why we lost this binding");
+// setTimeout(lecture.ask.bind(lecture), 10, "why we lost this binding");
+
+// var teacher = "Vardges";
+
+// function ask(question) {
+//   console.log(this.teacher, question);
+// }
+
+// function askAgain(question) {
+//   "use strict";
+//   console.log(this.teacher, question);
+// }
+// ask("what is the non strict");
+// askAgain();
